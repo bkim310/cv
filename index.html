@@ -1,0 +1,156 @@
+<!--
+  Doc type tells the browser what version of HTML we're using, HTML 5 in this case.
+  -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<!--
+  this tells us that everything in between the tag breaks of html is going to be html code, consisting of a head and a body.
+  The head holds information about the web page and tells the browser how it should handle the page.
+    ie. title tag tells us the title of the document/page
+-->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Brandon's Personal Website provides information on projects Brandon has worked on and is currently working on.">
+  <!--
+  Meta gives extra data to the HTML doc. charset tells the browser that all the text in the webpage is encoded using utf-8 encoding system.
+  There are different characters for different charsets, but UTF-8 is the standard for HTML files because it includes many international symbols
+  Meta name description tells the browser what to look for and what the website will be about when you search for it on a browser.
+  -->
+  <title>💪Brandon's Personal Site</title>
+  <!--
+  the title is the title for the website when you are looking at the <table>
+-->
+</head>
+
+
+<body>
+  <table cellspacing="20">
+    <tr>
+      <td>
+        <img src="images/tengen.webp" alt="tengen uzui drinking sake">
+        <!--
+          the image tag is self closing, but the tag needs a specified source that could be a url or a local image
+          alt is what will show up in the event that the initial image cannot be produced, helping google algorithm for showing your webpage in the event that the alt is searched
+          if you save the image file into your html folder you can simply refer to the image using the name of the file instead of the url
+          in the event that the image can no longer be extracted from the url source, it will now pull the image straight from our saved file.
+        -->
+      </td>
+      <td>
+        <h1>Brandon Kim is a <a href="gigachad.html">Giga-Chad</a></h1>
+        <!--
+          the a tag is used to anchor a hyperlink onto a word.
+          the a tag needs to start before the word you want to be embed the hyperlink in and there must be a closing tag after the word you choose.
+        -->
+        <p>
+          <em><strong>Giga-chad</strong> trying to learn </em>
+          <!--
+          em tag is the emphasis tag, which is slightly different from the i tag which italicizes.
+          The em tag tells the browser it should put stress or emphasis on the content between the em tag while the i tag only italicizes it.
+          Also use the strong tag rather than the bold tag, as strong confers that text is strong importance rather than just visually changing it to bold.
+          -->
+        </p>
+        <p>
+          This website is meant to act as a display of the skills I am learning in web-dev.
+        </p>
+        <p>
+          <a href="contact.html">Contact Me!</a>
+        </p>
+      </td>
+    </tr>
+  </table>
+
+  <hr color=brown size="3" />
+  <h3>
+    Education
+  </h3>
+  <ul>
+    <li>
+      <<a href="https://www.syossetschools.org/">Syosset High School</a> 2015-2018
+    </li>
+    <li>
+      <<a href="https://www.bu.edu/">Boston University</a> 2018-2022
+    </li>
+  </ul>
+  <h3>Coding Experience</h3>
+  <ol>
+    <li>
+      <<a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/">The Complete 2022 Web Development Bootcamp</a> with Angela Yu
+    </li>
+    <li>pending...</li>
+  </ol>
+  <!--
+  the p tag formats information into a paragraph
+  the ul tag is an unordered list which defaults to bullet points
+  the ol tag is an ordered list which defaults to numeric order ie. 1,2,3
+  the li tag is used to provide the information that is being listed
+  -->
+  <hr color=brown size="3" />
+  <h3>Work Experience</h3>
+  <table cellspacing="10">
+    <thead>
+      <th>Dates</th>
+      <th>Work</th>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          2018-2022
+        </td>
+        <td>
+          Student at Boston University
+        </td>
+      </tr>
+      <tr>
+        <td>
+          2018
+        </td>
+        <td>
+          Cashier at Raising Cane's
+        </td>
+      </tr>
+      <tr>
+        <td>2018-2022</td>
+        <td>Cashier at Cafe JJ</td>
+      </tr>
+    </tbody>
+    <tfoot>
+    </tfoot>
+  </table>
+  <!--
+    the table tag helps us organize information into tables on our webpage.
+    The table tag needs to have an ending tag
+    the tr tag is used to produce a table row
+      the td tag is used to express table data/cells in our table rows
+    There is the table head, body and footer.
+    We do not stylize our tables in HTML because it's beter to do it on CSS.
+    -->
+<hr color=brown size="4" />
+  <h3>Skills</h3>
+
+  <table cellspacing="10">
+    <tr>
+      <td>HTML</td>
+      <td>⭐⭐⭐⭐⭐</td>
+    </tr>
+    <tr>
+      <td>CSS</td>
+      <td>⭐⭐⭐</td>
+    </tr>
+    <tr>
+      <td>JS</td>
+      <td>⭐</td>
+    </tr>
+    <tr>
+      <td>Gaming</td>
+      <td>⭐⭐⭐⭐⭐</td>
+    </tr>
+  </table>
+<hr color=brown size="4" />
+<h3><a href="inputs.html">Inputs</a></h3>
+</body>
+<!--
+  The Body gives content to the page itself.
+-->
+
+</html>
